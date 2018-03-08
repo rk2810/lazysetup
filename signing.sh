@@ -14,6 +14,12 @@ read pastedKey
 mkdir ~/GPGKEY
 gpg --armor --export $pastedKey > ~/GPGKEY/gpg-key.txt
 echo "Your key is in ~/GPGKEYS as gpg-key.txt"
-
-
-
+echo -e "\e[1;31;42m Now one more copy pasta, youll see something like this : \e[0m"
+echo "pub   4096R/<COPY_SHORT_KEY> 2016-08-11 [expires: 2018-08-11]"
+echo -e "\e[1;31;42m Copy that short key : \e[0m"
+gpg --list-keys
+echo "Now paste it here : "
+read shortkey
+git config --global user.signingKey $shortkey
+git config --global commit.gpgsign true
+echo "DONE!"
