@@ -1,5 +1,5 @@
 # Lazy Script
 
-Just keep clone it in root directory as scripts and run ~/scripts/ba*
+Just keep it cloned in root directory as scripts and run ~/scripts/ba*
 
 Kek
