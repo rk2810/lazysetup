@@ -15,6 +15,12 @@ alias commit="git commit -s"
 alias amend="git commit --amend"
 alias push="git push"
 alias rebase="git rebase -p -i"
+alias remote="git remote -v"
+alias all="git add ."
+alias add="git add"
+alias sta="git status"
+alias log="git log"
+alias oneline="git log --oneline"
 
 # Others
 
