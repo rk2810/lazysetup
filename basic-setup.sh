@@ -22,13 +22,14 @@ sudo apt-get install python-setuptools python-dev build-essential
 sudo apt update
 sudo easy_install pip
 sudo pip install --upgrade virtualenv
+source ~/scripts/node-confirm.sh
 echo "Well.. Some shit might go down"
 echo -e "\e[92mNow some stupid shit I like..."
 sudo apt install sl
 sudo apt install figlet fortune -y
 sl
 echo -e "\e[1;31;42m Yes it is awful \e[0m"
-echo -e "\e[1;31;42m Now applying some on boot changes.\e[0m"
+echo -e "\e[1;31;42m Now applying some onBoot changes.\e[0m"
 echo "" >> ~/.bashrc
 echo "source ~/scripts/personal.sh" >> ~/.bashrc
 echo "onBoot" >> ~/.bashrc

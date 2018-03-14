@@ -26,3 +26,4 @@ alias oneline="git log --oneline"
 
 alias cls="tput reset"
 alias train="sl"
+alias transfer="bash ~/scripts/transfer.sh"
