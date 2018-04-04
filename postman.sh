@@ -1,8 +1,7 @@
 cd /tmp || exit
 echo "Downloading Postman ..."
-wget -q https://dl.pstmn.io/download/latest/linux?arch=64  postman.tar.gz
+wget -q https://dl.pstmn.io/download/latest/linux?arch=64 postman.tar.gz
 tar -xzf postman.tar.gz
-rm postman.tar.gz
 
 echo "Installing to opt..."
 if [ -d "/opt/Postman" ];then
